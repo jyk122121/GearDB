@@ -5,7 +5,7 @@ This is the reimplementation of the paper "**GearDB: A GC-free Key-Value Store o
 We implement GearDB based on [LevelDB](https://github.com/google/leveldb).
 
 
-It can support ZNS SSD with limited number of active zones and open zones and also can run YCSB workloads (add by JY)
+It can support ZNS SSD with limited number of active and open zones and also can run YCSB workloads (add by JY)
 
 
 ## 2 Compilation and Run
