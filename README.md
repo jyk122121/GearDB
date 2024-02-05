@@ -1,10 +1,12 @@
 # GearDB
 ## 1 Introduction
-This is the implementation of the paper "**GearDB: A GC-free Key-Value Store on HM-SMR Drives with Gear Compaction**" appeared in [FAST 2019](https://www.usenix.org/conference/fast19).
+This is the reimplementation of the paper "**GearDB: A GC-free Key-Value Store on HM-SMR Drives with Gear Compaction**" appeared in [FAST 2019](https://www.usenix.org/conference/fast19).
 
 We implement GearDB based on [LevelDB](https://github.com/google/leveldb).
 
 
+## Added by JY(It can support ZNS SSD with limited number of active zones and open zones
+## and also can run YCSB workloads)
 
 
 ## 2 Compilation and Run
